@@ -1,0 +1,18 @@
+{
+    "name": "Bot",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "1e071c91-8bf1-4b7c-9c02-8e2447cf71ac",
+            "appPassword": "gxhVTOK2132[}akhdDMS7%+",
+            "endpoint": "http://localhost:49230/api/messages",
+            "id": "6e01cd00-fd21-11e8-a94a-1b957be4de52",
+            "name": "http://localhost:49230/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "path": "D:\\working\\nexcel\\projects\\normal\\Fanex.Bot.Service\\Bot.bot",
+    "overrides": null
+}
