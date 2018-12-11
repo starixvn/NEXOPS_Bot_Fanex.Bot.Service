@@ -2,12 +2,13 @@
 {
     using System;
     using System.Configuration;
+    using Fanex.Bot.Client.Configuration;
 
     internal class Program
     {
         public static void Main(string[] args)
         {
-            BotClientManager.UseConfig(new Configuration.BotSettings(
+            BotClientManager.UseConfig(new BotSettings(
                     new Uri(ConfigurationManager.AppSettings["FanexBotClient:BotServiceUrl"]),
                     ConfigurationManager.AppSettings["FanexBotClient:ClientId"],
                     ConfigurationManager.AppSettings["FanexBotClient:ClientPassword"]));
